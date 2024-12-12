@@ -6,4 +6,9 @@ bài tập web(web cắt tóc)
 
 # Công nghệ
 Lavavel framework
+# Cài đặt
+```
+composer create --project --prefer--dist laravel/lavarel QuanLyQuanToc
+php artisan serve
+```
 # Triển khai

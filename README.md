@@ -12,3 +12,4 @@ composer create --project --prefer--dist laravel/lavarel QuanLyQuanToc
 php artisan serve
 ```
 # Triển khai
+https://vigilant-space-carnival-gjq947xgq772wr7q-8000.app.github.dev/

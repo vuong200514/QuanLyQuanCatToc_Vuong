@@ -65,7 +65,7 @@
         
         
     </div>
-    @foreach($listtho as $tho)
+    @foreach($ThoCatToc as $tho)
     
 
     <div class="row align-items-end" style="background-color: #e3f2fd; color:green; padding: 6px">

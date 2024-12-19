@@ -32,6 +32,12 @@ class DatabaseSeeder extends Seeder
             'Luong' => '100.000.000',
             'Chuc Vu' => 'Onwer',
         ]);
+        ThoCatToc::factory()->create([
+            'IdTho' => '1',
+            'TenTho' => 'Nguyen Van Hung',
+            'Luong' => '100.000',
+            'Chuc Vu' => 'Co_Owner',
+        ]);
 
     }
 }

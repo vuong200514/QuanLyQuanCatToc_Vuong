@@ -15,9 +15,23 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
+        KhachHang::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',
+            'password' => 'admin',
         ]);
+
+        KieuToc::factory()->create([
+            'IdToc' => '0',
+            'TenKieuToc' => 'DauTroc',
+        ]);
+
+        ThoCatToc::factory()->create([
+            'IdTho' => '0',
+            'TenTho' => 'Dao Manh Vuong',
+            'Luong' => '100.000.000',
+            'Chuc Vu' => 'Onwer',
+        ]);
+
     }
 }

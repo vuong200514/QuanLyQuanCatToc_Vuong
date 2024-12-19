@@ -9,8 +9,8 @@ class ThoCatToc extends Model
     protected $fillable = [
         'IdTho',
         'TenTho',
-        'So Luong',
-        'Chuc Vu',
+        'Luong',
+        'ChucVu',
       
     ];
 }

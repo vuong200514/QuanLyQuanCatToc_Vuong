@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\ThoCatToc;
 
 use Illuminate\Http\Request;
 
@@ -8,7 +8,7 @@ class ThoCatTocController extends Controller
 {
     
     public function listThoCatToc(){
-        $listtho = listThoCatToc::all();
+        $listThoCatToc = ThoCatToc::all();
         return view('ThoCatToc', compact('listThoCatToc'));
     }
 }

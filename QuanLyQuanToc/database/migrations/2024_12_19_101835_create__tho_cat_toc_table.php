@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('_tho_cat_toc', function (Blueprint $table) {
             $table->id();
-            $table->string('IdTho');
+            $table->string('IdTho')->unique();
             $table->string('TenTho');
-            $table->string('Luong');
+            $table->floatval('Luong');
             $table->string('ChucVu');
             $table->timestamps();
         });
